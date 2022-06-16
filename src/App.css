@@ -37,3 +37,23 @@
     transform: translateY(0px);
   }
 }
+
+#editor {
+  width: 100%;
+  height: 100%;
+}
+
+.row {
+  height: 20em;
+  margin-top: 2%;
+}
+
+#preview {
+  margin-top: 2%;
+  border: 2px solid green;
+  border-style: dashed;
+}
+
+#preview > * {
+  padding: 1%;
+}
